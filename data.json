@@ -5,7 +5,10 @@
         "Complete": false,
         "createdAt": "2018-12-05T08:38:55.114Z",
         "completedDate": null,
-        "tag": []
+        "tag": [
+            "homework",
+            "hard"
+        ]
     },
     {
         "id": 2,
@@ -13,9 +16,7 @@
         "Complete": false,
         "createdAt": "2018-12-05T08:38:55.114Z",
         "completedDate": null,
-        "tag": [
-            "coding"
-        ]
+        "tag": []
     },
     {
         "id": 3,

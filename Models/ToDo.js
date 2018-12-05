@@ -6,7 +6,7 @@ class ToDo {
         this.Complete = isComplete || false
         this.createdAt = create || new Date()
         this.completedDate = completeddate || null
-        this.tag = [] || tag
+        this.tag = tag || []
     }
 
     static readData() {
@@ -113,12 +113,26 @@ class ToDo {
         data.forEach(element => {
             if (element.id === id) {
                 result = element
-                tags.forEach(tag =>{
-                    element.tag.push(tag)
+                tags.forEach(Tag =>{
+                    element.tag.push(Tag)
                 })
             }
         })
         ToDo.writeData(data)
+        return result
+    }
+
+    static filter(tags) {
+        let data = this.findAllData()
+        let result = []
+         data.forEach(task => {
+            task.tag.forEach(element => {
+                if(element === tags) {
+                    result.push(task)
+                }
+                
+            });
+         })
         return result
     }
 

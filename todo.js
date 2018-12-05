@@ -28,6 +28,9 @@ switch (list[0]) {
     case "tag":
         ToDoController.addTag(option)
         break;
+    case "filter":
+        ToDoController.filter(list)
+        break;
     default: ToDoController.help()
         break;
 }

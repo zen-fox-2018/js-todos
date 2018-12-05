@@ -49,6 +49,12 @@ class View {
 
     }
 
+    static filter(data) {
+        data.forEach(task => {
+            console.log(`${task.id}. ${task.task} ${task.tag}`)
+        })
+    }
+
 }
 
 module.exports = View

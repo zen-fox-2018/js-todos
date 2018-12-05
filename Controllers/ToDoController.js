@@ -62,6 +62,16 @@ class ToDoController {
         View.successAddTag(tag)
     }
 
+    static filter(input) {
+        let tag = input[1]
+        let task = ToDo.filter(tag)
+        if(task.length === 0) {
+            View.displayNotFound()
+        } else {
+            View.filter(task)
+        }
+    }
+
 
 }
 
