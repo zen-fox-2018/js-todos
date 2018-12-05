@@ -56,12 +56,12 @@ class Task {
     return taskDeleted
   }
 
-  static setCom(id) {
+  static setCom(id, status) {
     let result = [] 
     let task;
     Task.getAll().forEach(x => {
       if(x.id == id) {
-        x.complete = !x.complete
+        x.complete = status
         if(x.complete == true) {
           x.completeDate = new Date()
           task = x

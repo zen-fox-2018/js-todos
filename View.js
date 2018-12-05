@@ -15,8 +15,8 @@ class View {
     node todo.js add <task_content>
     node todo.js findById <task_id>
     node todo.js delete <task_id>
-    node todo.js complete <task_id>
-    node todo.js uncomplete <task_id>
+    node todo.js complete <task_id> set uncompleted to complete and reversible
+    node todo.js uncomplete <task_id> set uncompleted to complete and reversible
     node todo.js list:created asc | desc
     node todo.js list:completed asc | desc
     node todo.js tag <id> <name> <name>

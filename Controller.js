@@ -16,8 +16,8 @@ class Controller {
       case 'add': Controller.add(option.join(' ')); break;
       case 'findById': Controller.find(option); break;
       case 'delete': Controller.delete(option); break;
-      case 'complete': Controller.setCom(option); break;
-      case 'uncomplete': Controller.setCom(option); break;
+      case 'complete': Controller.setCom(option, command); break;
+      case 'uncomplete': Controller.setCom(option, command); break;
       case 'tag': Controller.tag(option); break;
       case 'filter': Controller.filter(input[0].split(':')[1]); break;
       default: Controller.help(); break;
@@ -62,8 +62,14 @@ class Controller {
     }
   }
 
-  static setCom(id) {
-    let data = Task.setCom(id)
+  static setCom(id, command) {
+    let status;
+    if (command == 'complete') {
+      status = true
+    } else {
+      status = false
+    }
+    let data = Task.setCom(id, status)
     if (data) {
       Controller.list()
     } else {
