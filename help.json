@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "task": "bikin aplikasi",
+    "completed": false,
+    "created": "2018-12-05T09:52:58.972Z"
+  },
+  {
+    "id": 2,
+    "task": "bikin todo.js",
+    "completed": false,
+    "created": "2018-12-05T09:53:18.489Z"
+  },
+  {
+    "id": 3,
+    "task": "makan mi",
+    "completed": true,
+    "created": "2018-12-05T09:53:36.251Z"
+  },
+  {
+    "id": 4,
+    "task": "minum air putih",
+    "completed": false,
+    "created": "2018-12-05T10:04:20.658Z"
+  }
+]
