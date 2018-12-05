@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": 1,
+    "completed": "2018-12-05T10:17:04.005Z",
+    "task": "berkebun",
+    "created_at": "2018-12-05T10:17:04.005Z"
+  },
+  {
+    "id": 2,
+    "completed": "2018-12-05T10:17:04.005Z",
+    "task": "menyapu",
+    "created_at": "2018-12-05T10:17:04.005Z"
+  },
+  {
+    "id": 3,
+    "completed": "2018-12-05T10:17:04.005Z",
+    "task": "olahraga-pagi",
+    "created_at": "2018-12-05T10:17:04.005Z"
+  }
+]
