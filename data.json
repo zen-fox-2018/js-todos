@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "status": false,
+    "task": "Bikin Aplikasi",
+    "createdDate": 1544003936622,
+    "completeDate": null
+  },
+  {
+    "status": false,
+    "task": "Main node js",
+    "createdDate": 1544003936623,
+    "completeDate": null
+  },
+  {
+    "status": false,
+    "task": "Change the world",
+    "createdDate": 1544003936624,
+    "completeDate": null
+  },
+  {
+    "status": false,
+    "task": "Menklukan Dunia",
+    "createdDate": 1544004287641,
+    "completeDate": null
+  },
+  {
+    "status": false,
+    "task": "Menklukan Dunia Alam",
+    "createdDate": 1544004302641,
+    "completeDate": null
+  },
+  {
+    "status": false,
+    "task": "Menklukan Dunia Alam Bawah Sadar",
+    "createdDate": 1544004313263,
+    "completeDate": null
+  }
+]
