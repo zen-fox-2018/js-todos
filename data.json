@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 1,
+    "task": "Bikin Aplikasi",
+    "status": 1,
+    "createdAt": "2018-12-05T08:27:22.301Z",
+    "updatedAt": "2018-12-05T08:27:56.131Z",
+    "tags": [
+      "hobby"
+    ]
+  },
+  {
+    "id": 3,
+    "task": "Playing games",
+    "status": 1,
+    "createdAt": "2018-12-05T08:27:42.945Z",
+    "updatedAt": "2018-12-05T08:27:49.837Z",
+    "tags": [
+      "hobby",
+      "game"
+    ]
+  }
+]
