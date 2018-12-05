@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": 1,
+    "task": "Bikin aplikasi",
+    "complete": true,
+    "created": "2018-12-05T08:34:51.292Z",
+    "completeDate": "2018-12-05T08:41:02.544Z",
+    "tag": []
+  },
+  {
+    "id": 2,
+    "task": "Main node js",
+    "complete": true,
+    "created": "2018-12-05T08:34:51.292Z",
+    "completeDate": "2018-12-05T08:40:55.736Z",
+    "tag": [
+      "pusing",
+      "javascript"
+    ]
+  },
+  {
+    "id": 3,
+    "task": "Shut down my computer",
+    "complete": false,
+    "created": "2018-12-05T08:34:51.292Z",
+    "completeDate": null,
+    "tag": []
+  }
+]
