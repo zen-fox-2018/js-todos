@@ -101,5 +101,25 @@ class Task {
     })
     return result
   }
+
+  static sortByComp(data , opt) {
+    let result = []
+    if (opt == 'asc') {
+      data.sort(function(a,b){
+        var c = new Date(a.completeDate);
+        var d = new Date(b.completeDate);
+        return d-c;
+        });
+      result = data
+    } else {
+      data.sort(function(a,b){
+        var c = new Date(a.completeDate);
+        var d = new Date(b.completeDate);
+        return c-d;
+        });
+      result = data
+    }
+    return result
+  }
 }
 module.exports = Task

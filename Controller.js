@@ -1,4 +1,4 @@
-const Model = require('./Model')
+const Task = require('./Model')
 const View = require('./View')
 
 class Controller {
@@ -25,31 +25,32 @@ class Controller {
   }
 
   static list(com , option) {
-    let data = Model.getAll() 
+    let data = Task.getAll() 
     if (com == undefined || (option == 'asc' && com == 'created') || option == null) {
       View.list(data)
     } else if (com == 'created' && option == 'desc') {
       View.createDesc(data)
     } else if (com == 'completed') {
-      View.complist(data , option)
+      data = Task.sortByComp(data , option)
+      View.list(data)
     } else {
       View.display(`Error there is no such command`)
     }
   }
 
   static add(option) {
-    let data = new Model(null,option)
+    let data = new Task(null,option)
     data.add()
     View.display(`Added "${option}" to your TODO list....`)
   }
 
   static find(id) {
-   let data = Model.find(id)
+   let data = Task.find(id)
     View.list(data)
   }
 
   static delete(id) {
-    let data = Model.delete(id)
+    let data = Task.delete(id)
     if (data) {
       View.display(`Deleted "${data}" from your ToDo list!`)
     } else {
@@ -58,19 +59,19 @@ class Controller {
   }
 
   static setCom(id) {
-    Model.setCom(id)
+    Task.setCom(id)
     Controller.list()
   }
 
   static tag(option) {
-    let data = Model.tag(option[0] , option.slice(1))
+    let data = Task.tag(option[0] , option.slice(1))
     if(data) {
       View.display(`Tagged task "${data.task}" with tags:`, data.tag)
     }
   }
 
   static filter(tag) {
-    let data = Model.filter(tag)
+    let data = Task.filter(tag)
     View.display(`${data.id}. ${data.task} :`, data.tag)
   }
   

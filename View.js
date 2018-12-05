@@ -45,24 +45,5 @@ class View {
     }
   }
 
-  static complist(data , opt) {
-    let result = []
-    if (opt == 'asc') {
-      data.sort(function(a,b){
-        var c = new Date(a.completeDate);
-        var d = new Date(b.completeDate);
-        return d-c;
-        });
-      result = data
-    } else {
-      data.sort(function(a,b){
-        var c = new Date(a.completeDate);
-        var d = new Date(b.completeDate);
-        return c-d;
-        });
-      result = data
-    }
-    this.list(data)
-  }
 }
 module.exports = View
