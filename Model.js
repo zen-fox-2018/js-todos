@@ -83,7 +83,15 @@ class Model {
   tag(arr) {
     let data = Model.findAll()
     for (let i = 0; i < arr.length; i++) {
-      this.tags.push(arr[i])
+      let check = true
+      for (let j = 0; j < this.tags.length; j++) {
+        if (arr[i] === this.tags[j]) {
+          check = false
+        }
+      }
+      if (check) {
+        this.tags.push(arr[i])
+      }
     }
     for (let i = 0; i < data.length; i++) {
       if (data[i].id === this.id) {
