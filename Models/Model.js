@@ -19,7 +19,7 @@ class Model {
     }
 
     static findAll(option, sortBy, type) {
-        this.remakeId()
+        
         let data = this.readFile()
         if (sortBy == undefined && type == undefined) {
             return data
@@ -85,19 +85,15 @@ class Model {
 
     static readFile() {
         let data = fs.readFileSync(`./data.json`, `utf8`)
-        return JSON.parse(data)
+        data = JSON.parse(data)
+        for (let i = 0; i < data.length; i++) {
+            data[i].id = i + 1
+        }
+        return data
     }
 
     static writeFile(data) {
         fs.writeFileSync(`./data.json`, JSON.stringify(data))
-    }
-
-    static remakeId() {
-        let data = this.readFile()
-        for (let i = 0; i < data.length; i++) {
-            data[i].id = i + 1
-        }
-        this.writeFile(data)
     }
 
     static sort(data, sortBy, type) {
