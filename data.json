@@ -1,1 +1,59 @@
-[]
+[
+    {
+        "id": 1,
+        "taskName": "belajar",
+        "status": true,
+        "created_date": "2018-12-05T08:54:00.342Z",
+        "completed_date": "2018-12-05T09:05:08.029Z",
+        "tags": [
+            "coding",
+            "matematika"
+        ]
+    },
+    {
+        "id": 2,
+        "taskName": "main",
+        "status": true,
+        "created_date": "2018-12-05T08:54:24.884Z",
+        "completed_date": "2018-12-05T09:05:18.938Z",
+        "tags": [
+            "bola",
+            "basket",
+            "pingpong"
+        ]
+    },
+    {
+        "id": 3,
+        "taskName": "pet",
+        "status": false,
+        "created_date": "2018-12-05T09:05:43.482Z",
+        "completed_date": null,
+        "tags": [
+            "hobby",
+            "kucing",
+            "anjing",
+            "kelinci"
+        ]
+    },
+    {
+        "id": 4,
+        "taskName": "tidur",
+        "status": false,
+        "created_date": "2018-12-05T09:09:29.017Z",
+        "completed_date": null,
+        "tags": [
+            "ngantuk",
+            "capek"
+        ]
+    },
+    {
+        "id": 5,
+        "taskName": "pergi",
+        "status": false,
+        "created_date": "2018-12-05T09:14:41.472Z",
+        "completed_date": null,
+        "tags": [
+            "travel"
+        ]
+    }
+]
