@@ -1,1 +1,76 @@
-[]
+[
+    {
+        "id": 1,
+        "task": "Bikin aplikasi",
+        "Complete": false,
+        "createdAt": "2018-12-05T08:38:55.114Z",
+        "completedDate": null,
+        "tag": []
+    },
+    {
+        "id": 2,
+        "task": "Main Node.js",
+        "Complete": false,
+        "createdAt": "2018-12-05T08:38:55.114Z",
+        "completedDate": null,
+        "tag": [
+            "coding"
+        ]
+    },
+    {
+        "id": 3,
+        "task": "mengerjakan Hospital Interface",
+        "Complete": true,
+        "createdAt": "2018-12-05T08:38:55.114Z",
+        "completedDate": "2018-12-05T09:22:19.462Z",
+        "tag": []
+    },
+    {
+        "id": 4,
+        "task": "nyapu halaman",
+        "Complete": true,
+        "createdAt": "2018-12-05T08:38:55.114Z",
+        "completedDate": "2018-12-05T09:22:59.453Z",
+        "tag": []
+    },
+    {
+        "id": 5,
+        "task": "pergi belanja",
+        "Complete": true,
+        "createdAt": "2018-12-05T08:38:55.114Z",
+        "completedDate": "2018-12-05T09:23:36.599Z",
+        "tag": []
+    },
+    {
+        "id": 6,
+        "task": "main Dota",
+        "Complete": false,
+        "createdAt": "2018-12-05T08:38:55.114Z",
+        "completedDate": null,
+        "tag": []
+    },
+    {
+        "id": 7,
+        "task": "main bola",
+        "Complete": false,
+        "createdAt": "2018-12-05T09:15:46.944Z",
+        "completedDate": null,
+        "tag": []
+    },
+    {
+        "id": 8,
+        "task": "les piano",
+        "Complete": false,
+        "createdAt": "2018-12-05T09:32:36.921Z",
+        "completedDate": null,
+        "tag": []
+    },
+    {
+        "id": 9,
+        "task": "swimming",
+        "Complete": false,
+        "createdAt": "2018-12-05T09:44:31.648Z",
+        "completedDate": null,
+        "tag": []
+    }
+]
