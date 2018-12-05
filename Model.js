@@ -58,13 +58,16 @@ class Task {
 
   static setCom(id) {
     let result = [] 
+    let task;
     Task.getAll().forEach(x => {
       if(x.id == id) {
         x.complete = !x.complete
         if(x.complete == true) {
           x.completeDate = new Date()
+          task = x
         }  else {
           x.completeDate = null
+          task = x
         }
       } else {
         x.completeDate = x.completeDate
@@ -73,6 +76,7 @@ class Task {
       result.push(x)
     })
     Task.write(JSON.stringify(result, null , 2))
+    return task
   }
 
   static tag(id , option) {

@@ -46,33 +46,47 @@ class Controller {
 
   static find(id) {
    let data = Task.find(id)
+   if (data == '') {
+     View.display(`There is no data with id: ${id}`)
+  } else {
     View.list(data)
+   }
   }
 
   static delete(id) {
     let data = Task.delete(id)
-    if (data) {
-      View.display(`Deleted "${data}" from your ToDo list!`)
-    } else {
+    if (data == '') {
       View.display(`There is no data with id : ${id}` , )
+    } else {
+      View.display(`Deleted "${data}" from your ToDo list!`)
     }
   }
 
   static setCom(id) {
-    Task.setCom(id)
-    Controller.list()
+    let data = Task.setCom(id)
+    if (data) {
+      Controller.list()
+    } else {
+      View.display(`There is no data with id : ${id}` , )
+    }
   }
 
   static tag(option) {
     let data = Task.tag(option[0] , option.slice(1))
     if(data) {
       View.display(`Tagged task "${data.task}" with tags:`, data.tag)
+    } else {
+      View.display(`There is no data!`  )
     }
   }
 
   static filter(tag) {
     let data = Task.filter(tag)
-    View.display(`${data.id}. ${data.task} :`, data.tag)
+    if(data) {
+      View.display(`${data.id}. ${data.task} :`, data.tag)
+    } else {
+      View.display(`There is no data with tag : ${tag}` , )
+    }
   }
   
   static help() {
