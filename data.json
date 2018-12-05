@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "task": "main node js",
+    "completed": false,
+    "createdAt": 1544004358246,
+    "completedAt": 1544004672360
+  },
+  {
+    "task": "change the world",
+    "completed": true,
+    "createdAt": 1544004367744,
+    "completedAt": true
+  },
+  {
+    "task": "Buy Groceries",
+    "completed": false,
+    "createdAt": 1544004376431,
+    "completedAt": 1544004672360
+  },
+  {
+    "task": "Clean My Room",
+    "completed": false,
+    "createdAt": 1544004387494,
+    "completedAt": 1544004672360
+  }
+]
