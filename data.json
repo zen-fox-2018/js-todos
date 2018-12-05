@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1,
+    "mark": ["X"],
+    "created_date": "08/5/2018",
+    "task": "Bikin aplikasi"
+  },
+  {
+    "id": 2,
+    "mark": [],
+    "created_date": "06/5/2018",
+    "task": "Baca buku"
+  },
+  {
+    "id": 3,
+    "mark": [],
+    "created_date": "11/5/2018",
+    "task": "Main node js"
+  },
+  {
+    "id": 4,
+    "mark": [],
+    "created_date": "01/5/2018",
+    "task": "belajar programming"
+  }
+]
