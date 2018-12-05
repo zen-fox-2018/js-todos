@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": 1,
+    "task": "bikin aplikasi",
+    "status": true,
+    "created": "2018-12-05T08:11:43.587Z",
+    "updated": "2018-12-05T08:15:53.306Z",
+    "tags": []
+  },
+  {
+    "id": 2,
+    "task": "Main node.js",
+    "status": false,
+    "created": "2018-12-05T08:11:43.587Z",
+    "updated": "2018-12-05T08:11:43.587Z",
+    "tags": [
+      "js",
+      "coding",
+      "hacktiv8"
+    ]
+  },
+  {
+    "id": 3,
+    "task": "Main dota",
+    "status": true,
+    "created": "2018-12-05T08:11:43.587Z",
+    "updated": "2018-12-05T08:11:43.587Z",
+    "tags": []
+  },
+  {
+    "id": 4,
+    "task": "Olahraga sore lagi",
+    "status": false,
+    "created": "2018-12-05T08:11:43.587Z",
+    "updated": "2018-12-05T08:11:43.587Z",
+    "tags": []
+  },
+  {
+    "id": 5,
+    "task": "ketempat tetangga",
+    "status": true,
+    "created": "2018-12-05T08:15:37.332Z",
+    "updated": "2018-12-05T08:24:01.852Z",
+    "tags": []
+  }
+]
