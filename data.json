@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": 1,
+    "status": true,
+    "task": "makan babi",
+    "created_date": "Wed Dec 05 2018 16:19:01 GMT+0700 (WIB)",
+    "done_date": "Wed Dec 05 2018 16:19:03 GMT+0700 (WIB)",
+    "tag": [
+      "haram",
+      "tapi enak"
+    ]
+  },
+  {
+    "id": 2,
+    "status": true,
+    "task": "makan lobster",
+    "created_date": "Wed Dec 05 2018 16:19:05 GMT+0700 (WIB)",
+    "done_date": "Wed Dec 05 2018 16:34:48 GMT+0700 (WIB)"
+  },
+  {
+    "id": 3,
+    "status": false,
+    "task": "makan bakwan",
+    "created_date": "Wed Dec 05 2018 17:00:21 GMT+0700 (WIB)",
+    "done_date": null
+  },
+  {
+    "id": 4,
+    "status": false,
+    "task": "makan bakwan",
+    "created_date": "Wed Dec 05 2018 17:00:25 GMT+0700 (WIB)",
+    "done_date": null
+  }
+]
