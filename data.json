@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": 1,
+    "task": "Bikin aplikasi",
+    "complete": true,
+    "created": "2018-12-05T08:34:51.292Z",
+    "completeDate": "2018-12-05T08:41:02.544Z",
+    "tag": []
+  },
+  {
+    "id": 4,
+    "task": "Membuat lapangan bola",
+    "complete": true,
+    "created": "2018-12-05T08:48:41.868Z",
+    "completeDate": "2018-12-05T09:07:43.994Z",
+    "tag": [
+      "bola",
+      "olahrag"
+    ]
+  },
+  {
+    "id": 5,
+    "task": "Hahahah",
+    "complete": false,
+    "created": "2018-12-05T08:55:55.259Z",
+    "completeDate": null,
+    "tag": [
+      "hahaha",
+      "hihihi"
+    ]
+  }
+]
